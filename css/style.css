@@ -1,0 +1,94 @@
+body{
+  margin: 0;
+  color: #222222;
+  font-size: 1em;
+  font-family: "Open Sans", "Helvetica Neue",sans-serif;
+  background-color: rgba(53, 89, 35, 0.4);
+  
+}
+.masthead {
+  padding: 6em 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('https://images.unsplash.com/reserve/NxxLccbqQdGtNc7xJ43e_ancestral-home.jpg?q=80&fm=jpg&s=e2ae0845306748c01ea02dd7827093da');
+  border-top: solid 1em #5F8A48;
+}
+
+.masthead-intro, .masthead-heading, .content-footer{
+  text-align: center;
+}
+
+.masthead-intro{
+  font-size: 2em;
+  font-family: "Gentium Book Basic", Georgia, serif;
+  margin-bottom: 0.1em;  
+}
+.masthead-heading {
+  margin-top: -0.2em;
+  font-size: 6em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  letter-spacing: -0.02em;
+  color: hsla(360, 100%, 30%, 0.60);
+  text-shadow: 2px 2px 2px orange;
+  text-transform: uppercase;
+}
+
+
+.introduction-section,
+.location-section, .questions-section {
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  
+}
+
+.introduction-section > p,
+.location-section > p,
+.questions-section > p,
+.content-footer > p {
+  font-weight: 300;
+  letter-spacing: 0.05em;
+ 
+}
+
+em{
+  font-weight:bold;
+}
+
+.questions-section > h3{
+  font-family: "Gentium Book Basic", "Georgia", serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #A55939;
+  margin: 2em 0 1em 0;
+  o
+}
+
+footer {
+  background-color: grey;
+  padding: 2em;
+}
+
+a{
+  text-decoration: none;
+  color: #A55939;
+}
+
+ul{
+  list-style-type: none;
+}
+
+.social > li {
+  display: inline-block;
+  padding: 1em;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+}
+
+.content-footer > p {
+  color: white;
+  letter-spacing: 0;
+}
+
