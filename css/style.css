@@ -22,7 +22,7 @@ body{
   font-size: 2em;
   font-family: "Gentium Book Basic", Georgia, serif;
   margin-bottom: 0.1em;  
-  color: orange;
+  color: indianred;
 }
 .masthead-heading {
   margin-top: -0.2em;
@@ -58,13 +58,18 @@ em{
   font-weight:bold;
 }
 
+section:last-of-type {
+  margin-bottom: 45px;
+}
+
 .questions-section > h3{
   font-family: "Gentium Book Basic", "Georgia", serif;
   font-size: 1.2em;
   font-weight: bold;
   color: #A55939;
   margin: 2em 0 1em 0;
-  o
+
+  
 }
 
 footer {
@@ -74,7 +79,8 @@ footer {
 
 a{
   text-decoration: none;
-  color: #A55939;
+  color: orange;
+ 
 }
 
 ul{
@@ -85,13 +91,21 @@ ul{
 .social > li {
   display: inline-block;
   padding: 1em;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.2em;
   font-weight: bold;
 }
 
 .content-footer > p {
   color: white;
   letter-spacing: 0;
+}
+
+footer p:first-of-type {
+   font-size: 19px;
+}
+
+footer p:last-of-type {
+  font-size: 10px;
 }
 
 @media only screen and (max-width: 500px) {
